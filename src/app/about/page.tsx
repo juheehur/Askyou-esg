@@ -25,7 +25,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Simplified Data Collection</h3>
               <p className="text-gray-500">
-                Our AI-powered surveys dynamically adapt to your business context, making it easy to collect accurate carbon emission data across all activities. From flights to energy consumption, we've got you covered.
+                Our AI-powered surveys dynamically adapt to your business context, making it easy to collect accurate carbon emission data across all activities. From flights to energy consumption, we&apos;ve got you covered.
               </p>
             </div>
             <div>
@@ -43,7 +43,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Accessible for All</h3>
               <p className="text-gray-500">
-                Whether you're an SME or NGO, AskYou makes sustainability tracking affordable and manageable. Access the tools you need to enhance compliance and secure sustainability-linked funding.
+                Whether you&apos;re an SME or NGO, AskYou makes sustainability tracking affordable and manageable. Access the tools you need to enhance compliance and secure sustainability-linked funding.
               </p>
             </div>
           </div>
