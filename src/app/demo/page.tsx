@@ -16,9 +16,9 @@ const scenarios = [
     icon: GlobeAsiaAustraliaIcon,
     href: "?scenario=business-trip",
     features: [
-      "항공 및 차량 이동 거리 기반 배출량 계산",
-      "다양한 교통수단 지원",
-      "출장 빈도 반영"
+      "Emission calculations based on flight and vehicle distances",
+      "Support for various transportation modes",
+      "Trip frequency adjustments"
     ]
   },
   {
@@ -27,9 +27,9 @@ const scenarios = [
     icon: BuildingOffice2Icon,
     href: "?scenario=electricity",
     features: [
-      "전력 공급사별 배출계수 적용",
-      "건물 면적 기반 사용량 계산",
-      "실시간 모니터링"
+      "Emission factors by electricity provider",
+      "Usage calculations based on building area",
+      "Real-time monitoring"
     ]
   },
   {
@@ -38,9 +38,9 @@ const scenarios = [
     icon: UserGroupIcon,
     href: "?scenario=commuting",
     features: [
-      "교통수단별 배출량 산정",
-      "재택근무 영향 반영",
-      "연간 통근 거리 자동 계산"
+      "Emissions by transportation mode",
+      "Work-from-home impact analysis",
+      "Annual commute distance automation"
     ]
   }
 ];
@@ -60,7 +60,7 @@ export default function Demo() {
             AskYou Demo
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            ESG 보고서 자동화의 미래를 체험해보세요. 아래 시나리오 중 하나를 선택하여 시작하실 수 있습니다.
+            Experience the future of ESG reporting automation. Choose one of the scenarios below to get started.
           </p>
         </motion.div>
 
@@ -96,7 +96,7 @@ export default function Demo() {
                   href={scenario.href}
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                 >
-                  시작하기
+                  Get Started
                   <ArrowRightIcon className="ml-2 h-4 w-4" />
                 </Link>
               </div>
@@ -115,7 +115,7 @@ export default function Demo() {
             href="/features"
             className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300 shadow-lg"
           >
-            전체 기능 살펴보기
+            Explore All Features
           </Link>
         </motion.div>
       </div>
