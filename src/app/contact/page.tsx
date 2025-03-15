@@ -69,7 +69,7 @@ ${formData.message}
               Get in Touch
             </h1>
             <p className="text-lg text-gray-600">
-              Have questions about AskYou? We'd love to hear from you.
+              We&apos;ll get back to you as soon as possible.
             </p>
           </div>
 

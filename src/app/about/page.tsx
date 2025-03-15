@@ -11,7 +11,7 @@ export default function About() {
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-500">
             AskYou is an innovative AI-powered platform that transforms how businesses track and report their carbon emissions. 
-            We make ESG compliance accessible, accurate, and efficient for organizations of all sizes.
+            We&apos;re committed to making ESG reporting accessible and efficient for organizations of all sizes.
           </p>
         </div>
       </div>
